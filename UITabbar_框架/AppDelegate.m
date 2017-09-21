@@ -20,7 +20,7 @@
     self.window.backgroundColor = [UIColor grayColor];
     [self.window makeKeyAndVisible];
     [[AppStarManager sharedSingleton] StarApp];
-    [self initBack];
+//    [self initBack];
     return YES;
 }
 
