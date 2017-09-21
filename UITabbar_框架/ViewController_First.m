@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor yellowColor];
-//    self.navigationItem.title = @"直播";
+    self.navigationItem.title = @"直播";
 //    [self.view addSubview:self.BaseView];
     [self.view addSubview:self.NavigationView];
     _leftBtn = [[UIButton alloc] init];
