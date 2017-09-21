@@ -25,7 +25,7 @@
 }
 
 - (void)initBack{
-    
+    self.window.backgroundColor = [UIColor grayColor];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
