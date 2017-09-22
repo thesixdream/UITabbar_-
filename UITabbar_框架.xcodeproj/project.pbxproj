@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B79C27491F73634D00F6AD13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79C27481F73634D00F6AD13 /* ViewController.m */; };
 		B79C274C1F73634D00F6AD13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79C274A1F73634D00F6AD13 /* Main.storyboard */; };
 		B79C274E1F73634D00F6AD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79C274D1F73634D00F6AD13 /* Assets.xcassets */; };
 		B79C27511F73634D00F6AD13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B79C274F1F73634D00F6AD13 /* LaunchScreen.storyboard */; };
@@ -25,6 +24,7 @@
 		B79C27981F7364AD00F6AD13 /* LLTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B79C27901F73642600F6AD13 /* LLTabBarItem.m */; };
 		B79C27991F7364AD00F6AD13 /* UINavigationController+CLNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B79C27931F73642600F6AD13 /* UINavigationController+CLNavigationController.m */; };
 		B79C279F1F738F8C00F6AD13 /* CustomNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B79C279C1F738E2700F6AD13 /* CustomNavigationView.m */; };
+		B79C27A91F74E44800F6AD13 /* 3cun 0997.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B79C27A81F74E44800F6AD13 /* 3cun 0997.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,6 @@
 
 /* Begin PBXFileReference section */
 		B79C27411F73634D00F6AD13 /* UITabbar_框架.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UITabbar_框架.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B79C27471F73634D00F6AD13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B79C27481F73634D00F6AD13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B79C274B1F73634D00F6AD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B79C274D1F73634D00F6AD13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B79C27501F73634D00F6AD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -82,6 +80,7 @@
 		B79C27951F73642C00F6AD13 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		B79C279C1F738E2700F6AD13 /* CustomNavigationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationView.m; sourceTree = "<group>"; };
 		B79C279D1F738E2800F6AD13 /* CustomNavigationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomNavigationView.h; sourceTree = "<group>"; };
+		B79C27A81F74E44800F6AD13 /* 3cun 0997.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3cun 0997.JPG"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,18 +135,16 @@
 			children = (
 				B79C27771F73641400F6AD13 /* AppDelegate.h */,
 				B79C27761F73641400F6AD13 /* AppDelegate.m */,
-				B79C27471F73634D00F6AD13 /* ViewController.h */,
-				B79C27481F73634D00F6AD13 /* ViewController.m */,
 				B79C277A1F73641D00F6AD13 /* AppStarManager.h */,
 				B79C277E1F73641D00F6AD13 /* AppStarManager.m */,
 				B79C27811F73641D00F6AD13 /* ViewController_First.h */,
 				B79C277B1F73641D00F6AD13 /* ViewController_First.m */,
-				B79C277D1F73641D00F6AD13 /* ViewController_Fourth.h */,
-				B79C277C1F73641D00F6AD13 /* ViewController_Fourth.m */,
 				B79C27821F73641E00F6AD13 /* ViewController_Second.h */,
 				B79C27801F73641D00F6AD13 /* ViewController_Second.m */,
 				B79C27791F73641D00F6AD13 /* ViewController_Third.h */,
 				B79C277F1F73641D00F6AD13 /* ViewController_Third.m */,
+				B79C277D1F73641D00F6AD13 /* ViewController_Fourth.h */,
+				B79C277C1F73641D00F6AD13 /* ViewController_Fourth.m */,
 				B79C274A1F73634D00F6AD13 /* Main.storyboard */,
 				B79C274D1F73634D00F6AD13 /* Assets.xcassets */,
 				B79C274F1F73634D00F6AD13 /* LaunchScreen.storyboard */,
@@ -218,6 +215,7 @@
 		B79C27941F73642C00F6AD13 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				B79C27A81F74E44800F6AD13 /* 3cun 0997.JPG */,
 				B79C27951F73642C00F6AD13 /* PrefixHeader.pch */,
 			);
 			path = Other;
@@ -340,6 +338,7 @@
 			files = (
 				B79C27511F73634D00F6AD13 /* LaunchScreen.storyboard in Resources */,
 				B79C274E1F73634D00F6AD13 /* Assets.xcassets in Resources */,
+				B79C27A91F74E44800F6AD13 /* 3cun 0997.JPG in Resources */,
 				B79C274C1F73634D00F6AD13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +369,6 @@
 				B79C27971F7364AD00F6AD13 /* LLTabBar.m in Sources */,
 				B79C27981F7364AD00F6AD13 /* LLTabBarItem.m in Sources */,
 				B79C27991F7364AD00F6AD13 /* UINavigationController+CLNavigationController.m in Sources */,
-				B79C27491F73634D00F6AD13 /* ViewController.m in Sources */,
 				B79C27541F73634D00F6AD13 /* main.m in Sources */,
 				B79C27841F73641E00F6AD13 /* ViewController_Fourth.m in Sources */,
 				B79C27851F73641E00F6AD13 /* AppStarManager.m in Sources */,

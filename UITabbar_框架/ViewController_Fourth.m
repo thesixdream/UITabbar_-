@@ -7,8 +7,9 @@
 //
 
 #import "ViewController_Fourth.h"
-
-@interface ViewController_Fourth ()
+#import "CustomNavigationView.h"
+@interface ViewController_Fourth ()<CustomNavDelegate>
+@property (nonatomic,strong) CustomNavigationView *NavigationView;
 
 @end
 
@@ -17,7 +18,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blueColor];
-    // Do any additional setup after loading the view.
+    [self.view addSubview:self.NavigationView];
+}
+
+-(CustomNavigationView *)NavigationView{
+    if (_NavigationView == nil) {
+        _NavigationView = [[CustomNavigationView alloc]initWithNavColor:[UIColor purpleColor]];
+        _NavigationView.frame = CGRectMake(0, 0, SCREEN_WIDTH, 64);
+        [_NavigationView setTitle:@"活动"];
+        [_NavigationView setRightBtnTitle:@"跳转" withImage:nil];
+        [_NavigationView setRightHidden:YES];
+        [_NavigationView setBackHidden:YES];
+        _NavigationView.delegate = self;
+    }
+    return _NavigationView;
 }
 
 - (void)didReceiveMemoryWarning {
