@@ -69,7 +69,7 @@
     
     //标题栏
     _ptitle = [[UILabel alloc] init];
-    _ptitle.textColor = [UIColor whiteColor];
+    _ptitle.textColor = [UIColor colorNamed:@"testColor"];
     _ptitle.font          = [UIFont fontWithName:@"Helvetica-Bold" size:kTitleFont];
     [self addSubview:_ptitle];
     

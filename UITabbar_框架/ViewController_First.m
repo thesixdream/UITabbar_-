@@ -37,7 +37,7 @@
 }
 -(CustomNavigationView *)NavigationView{
     if (_NavigationView == nil) {
-        _NavigationView = [[CustomNavigationView alloc]initWithNavColor:[UIColor blueColor]];
+        _NavigationView = [[CustomNavigationView alloc]initWithNavColor:[UIColor colorNamed:@"grayColor"]];
         _NavigationView.frame = CGRectMake(0, 0, SCREEN_WIDTH, 64);
         [_NavigationView setTitle:@"直播"];
         [_NavigationView setRightHidden:YES];
@@ -100,8 +100,9 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:indentyfyID];
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:indentyfyID];
+         cell.selectionStyle = UITableViewCellSelectionStyleNone;
     }
-    cell.contentView.backgroundColor = [UIColor colorNamed:@"testColor"];
+    cell.contentView.backgroundColor = [UIColor colorNamed:@"grayColor"];
     cell.textLabel.text = @"美女";
     [cell.imageView setImage:[UIImage imageNamed:@"3cun 0997.JPG"]];
     return cell;
@@ -109,7 +110,9 @@
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 60;
 }
-
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView{
     //图片高度
     CGFloat imageHeight = self.headerBackView.frame.size.height;
