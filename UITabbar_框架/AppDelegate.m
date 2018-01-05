@@ -17,7 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = [UIColor grayColor];
+    self.window.backgroundColor = [UIColor yellowColor];
     self.window.backgroundColor = [UIColor colorNamed:@"testColor"];
     [self.window makeKeyAndVisible];
     [[AppStarManager sharedSingleton] StarApp];
